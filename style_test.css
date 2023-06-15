@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+.main-div{
+    width:55%;
+    margin-left:350px;
+    
+    place-items: center;
+    font-size:20px;
+    background-color: hsl(206, 92%, 94%);
+}
+#button{
+    padding: 10px;
+    background-color: rgb(66, 42, 140);
+    border-radius: 10px;
+    width: 100px;
+    border: rgb(78, 6, 133) solid 3px;
+}
+ #button:hover{
+        background-color: rgb(168, 151, 190);
+        color: black;
+    
+    }
+.inner-div{
+    margin-left: 5px;
+    
+    background-color: #fff;
+    padding:3rem 4rem;
+    border-radius:1rem;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, 0.4);
+}
+.inner-div h2{
+    font-size:30px;
+    font-weight:400;
+    padding-bottom:16px;
+}
+.inner-div li{
+padding-bottom:10px;
+margin-left:0;
+list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#button{
+  
+    }
+#button:hover{
+        background-color: rgb(168, 151, 190);
+        color: black;
+    
+    }
+#a{
+        font-size: larger;
+        font-weight: bolder;
+    }
+#submit, .btn{
+    padding:10px 30px;
+    font-size: 20px;
+    font-weight:bold;
+    background-color: rgb(210, 210, 179);
+    border: 1px solid rgb(81, 72, 59);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#submit:hover{
+    background-color: rgb(218, 131, 150);
+}
+#showScore{
+   
+    margin-top: 15px;
+    padding: 15px 20px;
+}
+.scoreArea{
+    
+}
+
+ #button:hover{
+        background-color: rgb(168, 151, 190);
+        color: black;
+    
+    }

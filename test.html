@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style_test.css">
+</head>
+<body style="margin:0%; margin-top: 10px;margin-right: 0%;background-color:rgb(61, 53, 106)">
+
+    <div id="nav" style="background-color: rgb(61, 53, 106) ;padding:20px;">
+    
+        <span id="menu" style="padding:16px;margin:5px"><button id="button" style="  padding: 10px;
+            background-color: rgb(95, 60, 135);
+            border-radius: 10px;
+            width: 100px;
+            border: rgb(78, 6, 133) solid 3px;"><a id="a" style="color:white ;text-decoration: none;"href="index.html">HOME</a></button></span>
+        <span id="menu" style="padding:16px;margin:5px"><button id="button" style="  padding: 10px;
+            background-color: rgb(95, 60, 135);
+            border-radius: 10px;
+            width: 100px;
+            border: rgb(78, 6, 133) solid 3px;"><a id="a" style="color:white;text-decoration: none;"href="blog.html">BLOGS</a></button></span>
+        <span id="menu" style="padding:16px;margin: 5px; "><button id="button" style="  padding: 10px;
+            background-color: rgb(95, 60, 135);
+            border-radius: 10px;
+            width: 100px;
+            border: rgb(78, 6, 133) solid 3px;"><a id="a"style="color:white;text-decoration: none;"href="login.php">LOGIN </a></button></span>
+        <span id="menu" style="padding:16px; margin:5px;"><button id="button" style="  padding: 10px;
+            background-color: rgb(95, 60, 135);
+            border-radius: 10px;
+            width: 100px;
+            border: rgb(78, 6, 133) solid 3px;"><a id="a"style="color:white;text-decoration: none;"href="faq.html">FAQ</a></button></span>
+        <span id="menu" style="padding:16px; margin:5px;"><button id="button" style="  padding: 10px;
+            background-color: rgb(95, 60, 135);
+            border-radius: 10px;
+            width: 100px;
+            border: rgb(78, 6, 133) solid 3px;"><a id="a"style="color:white;text-decoration: none;"href="http://localhost:8501/#ask-eda-anything-regarding-pcod-and-pcos">ASK EDA</a></button></span>
+        
+    </div>
+    <div style="text-align: center;color:white;font-size: 25px;padding-top: 10px;border: rgb(134, 102, 167) solid 2px ;">TEST</div><br><br><br><br><br>
+    <div class="main-div" style="background-color: rgb(61, 53, 106);" >
+        
+        <div class="inner-div">
+            <h2 class="questions">Questions comes here!</h2>
+            <ul>  
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label  for="ans1" id="option1"></label>   
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label  for="ans2" id="option2"></label>   
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label  for="ans3" id="option3"></label>   
+                </li>
+            </ul>
+            <button id="submit">Submit</button>
+            <div id="showScore" class="scoreArea"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

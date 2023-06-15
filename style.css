@@ -1,0 +1,57 @@
+#menu{
+    font-weight: bold; font-size: 20px;
+    text-decoration: none;
+    font-size: large;
+    align-items: flex-end;
+}
+#register{
+    width:600px;
+    background-color: rgb(110, 91, 150);
+    padding:16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: rgb(58, 34, 66) solid 4px;
+}
+.details{
+    margin: 0%;
+    margin-bottom: 4px;
+    font-size: 25px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    color:white;
+    
+}
+.inp{
+    width: 75%;
+    font-size: 18px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 30px;
+    
+}
+.test{
+    padding: 16px;
+}
+#but{
+    font-size: 30px;
+}
+#button{
+padding: 10px;
+background-color: rgb(66, 42, 140);
+border-radius: 10px;
+width: 100px;
+border: rgb(78, 6, 133) solid 3px;
+}
+#button:hover{
+    background-color: rgb(168, 151, 190);
+    color: black;
+
+}
+#a{
+    font-size: larger;
+    font-weight: bolder;
+}
+#nav{
+    align-items: center;
+}
